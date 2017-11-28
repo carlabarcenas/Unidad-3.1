@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+{% block body%}
+    <h2>{{the_title}}</h2>
+    <p>The values in the area:</p>
+    <table>
+        <tr>
+            <td>r:</td>
+            <td>{{the_r}}</td>
+        </tr>
+        <tr>
+            <td>h:</td>
+            <td>{{the_h}}</td>
+        </tr>
+        <tr>
+            <td>a:</td>
+            <td>{{the_result}}</td>
+        </tr>
+    </table>
+    <p><a href="/entry">Go back</a></p>
+{% endblock%}
